@@ -75,9 +75,10 @@ abstract class TreeVis
 }
 
 class SumInLeavesVisitor extends TreeVis {
+    private int result;
+
     public int getResult() {
-        //implement this
-        return 0;
+        return result;
     }
 
     public void visitNode(TreeNode node) {
@@ -85,7 +86,7 @@ class SumInLeavesVisitor extends TreeVis {
     }
 
     public void visitLeaf(TreeLeaf leaf) {
-        //implement this
+        result += leaf.getValue();
     }
 }
 
@@ -212,9 +213,10 @@ public class VisitorPattern {
                 }
             }
         }
-        System.out.println(nodes.get(0).getDepth() + " " + nodes.get(0).getValue() + " " + nodes.get(0).getColor());
-        System.out.println(nodes.get(1).getDepth() + " " + nodes.get(1).getValue() + " " + nodes.get(1).getColor());
-        System.out.println(nodes.get(2).getDepth() + " " + nodes.get(2).getValue() + " " + nodes.get(2).getColor());
+        Tree root = nodes.get(from.get(0));
+        SumInLeavesVisitor vis1 = new SumInLeavesVisitor();
+        root.accept(vis1);
+        System.out.println(vis1.getResult());
     }
 
     private static boolean isNode(Integer integer, List<Integer> from) {
