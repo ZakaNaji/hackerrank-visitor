@@ -91,17 +91,17 @@ class SumInLeavesVisitor extends TreeVis {
 }
 
 class ProductOfRedNodesVisitor extends TreeVis {
+    private int result = 1;
     public int getResult() {
-        //implement this
-        return 1;
+        return result;
     }
 
     public void visitNode(TreeNode node) {
-        //implement this
+        if(node.getColor() == Color.RED) result *= node.getValue();
     }
 
     public void visitLeaf(TreeLeaf leaf) {
-        //implement this
+        if(leaf.getColor() == Color.RED) result *= leaf.getValue();
     }
 }
 
@@ -153,24 +153,6 @@ public class VisitorPattern {
         return null;
     }*/
 
-    public static void main1(String[] args){
-        /*Scanner scanner = new Scanner(System.in);
-        int nodesNumber = scanner.nextInt();
-        scanner.nextLine();//go to next line
-        int[] values = VisitorPatternUtils.filValues(scanner.nextLine());//GETTING THE VALUES
-        Color[] colors = VisitorPatternUtils.filColors(scanner.nextLine());//GETTING THE COLORS
-        Edges[] edges = new Edges[nodesNumber-1];
-        for(int i=0; i < nodesNumber-1; i++){//GETTING THE EDGES
-            String[] arrEdges = scanner.nextLine().split(" ");
-            edges[i] = new Edges(Integer.valueOf(arrEdges[0]),Integer.valueOf(arrEdges[1]));
-        }
-        System.out.println(values[0] + " || " + values[1] + " || " + values[2]);
-        System.out.println(colors[0] + " || " + colors[1] + " || " + colors[2]);
-        System.out.println(edges[0].getFrom()+"->"+edges[0].getTo() + " || " + edges[1].getFrom()+"->"+edges[1].getTo());
-        //CREATING THE TREE
-        VisitorPatternUtils.createSeparatedTrees(values, colors, edges);*/
-    }
-
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int nodesNumber = scanner.nextInt();scanner.nextLine();//go to next line
@@ -214,7 +196,7 @@ public class VisitorPattern {
             }
         }
         Tree root = nodes.get(from.get(0));
-        SumInLeavesVisitor vis1 = new SumInLeavesVisitor();
+        ProductOfRedNodesVisitor vis1 = new ProductOfRedNodesVisitor();
         root.accept(vis1);
         System.out.println(vis1.getResult());
     }
