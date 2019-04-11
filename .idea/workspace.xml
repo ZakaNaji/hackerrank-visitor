@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/VisitorPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
+            <state relative-caret-position="174">
+              <caret line="111" column="51" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#484#485#0" expanded="true" />
@@ -66,7 +66,11 @@
                 <element signature="e#1937#1938#0" expanded="true" />
                 <element signature="e#1993#1994#0" expanded="true" />
                 <element signature="e#2067#2068#0" expanded="true" />
-                <element signature="e#6248#6249#0" expanded="true" />
+                <element signature="e#2173#2174#0" expanded="true" />
+                <element signature="e#2199#2200#0" expanded="true" />
+                <element signature="e#2482#2483#0" expanded="true" />
+                <element signature="e#2565#2566#0" expanded="true" />
+                <element signature="e#6460#6461#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,7 +132,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554996092123" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554996990260" />
     <property name="last_opened_file_path" value="I:/SEB/SEB0003-CDS-SEB-dev/hybris" />
   </component>
   <component name="RunDashboard">
@@ -196,12 +200,12 @@
       <updated>1554804432537</updated>
       <workItem from="1554804436296" duration="1729000" />
       <workItem from="1554886590938" duration="6279000" />
-      <workItem from="1554966616468" duration="17692000" />
+      <workItem from="1554966616468" duration="18465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25700000" />
+    <option name="totallyTimeSpent" value="26473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -217,7 +221,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,8 +279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VisitorPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
+        <state relative-caret-position="174">
+          <caret line="111" column="51" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#484#485#0" expanded="true" />
@@ -303,7 +307,11 @@
             <element signature="e#1937#1938#0" expanded="true" />
             <element signature="e#1993#1994#0" expanded="true" />
             <element signature="e#2067#2068#0" expanded="true" />
-            <element signature="e#6248#6249#0" expanded="true" />
+            <element signature="e#2173#2174#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2482#2483#0" expanded="true" />
+            <element signature="e#2565#2566#0" expanded="true" />
+            <element signature="e#6460#6461#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -106,17 +106,19 @@ class ProductOfRedNodesVisitor extends TreeVis {
 }
 
 class FancyVisitor extends TreeVis {
+    private int evenNodes;
+    private int greenLeafNode;
     public int getResult() {
-        //implement this
-        return 0;
+        return Math.abs(evenNodes - greenLeafNode);
     }
 
     public void visitNode(TreeNode node) {
-        //implement this
+        if(node.getDepth()%2 == 0) evenNodes += node.getValue();
+        if(node.getColor() == Color.GREEN) greenLeafNode += node.getValue();
     }
 
     public void visitLeaf(TreeLeaf leaf) {
-        //implement this
+        if(leaf.getColor() == Color.GREEN) greenLeafNode += leaf.getValue();
     }
 }
 
@@ -196,7 +198,7 @@ public class VisitorPattern {
             }
         }
         Tree root = nodes.get(from.get(0));
-        ProductOfRedNodesVisitor vis1 = new ProductOfRedNodesVisitor();
+        FancyVisitor vis1 = new FancyVisitor();
         root.accept(vis1);
         System.out.println(vis1.getResult());
     }
