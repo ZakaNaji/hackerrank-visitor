@@ -97,11 +97,11 @@ class ProductOfRedNodesVisitor extends TreeVis {
     }
 
     public void visitNode(TreeNode node) {
-        if(node.getColor() == Color.RED) result *= node.getValue();
+        if(node.getColor() == Color.RED) result *= node.getValue()%(Math.pow(10,9)+7);
     }
 
     public void visitLeaf(TreeLeaf leaf) {
-        if(leaf.getColor() == Color.RED) result *= leaf.getValue();
+        if(leaf.getColor() == Color.RED) result *= leaf.getValue()%(Math.pow(10,9)+7);
     }
 }
 
@@ -145,68 +145,46 @@ class VisitorPatternUtils{
 
 public class VisitorPattern {
 
-    /*public static Tree solve() {
-        Scanner scanner = new Scanner(System.in);
-        int nodesNumber = scanner.nextInt();
-        scanner.nextLine();//go to next line
-        int[] values = VisitorPatternUtils.filValues(scanner.nextLine());
-        byte[] colors = new byte[nodesNumber];
-        Edges[] edges = new Edges[nodesNumber-1];
-        return null;
-    }*/
-
-    public static void main(String[] args){
+    public static Tree solve() {
         Scanner scanner = new Scanner(System.in);
         int nodesNumber = scanner.nextInt();scanner.nextLine();//go to next line
         int[] values = VisitorPatternUtils.filValues(scanner.nextLine());//GETTING THE VALUES
         Color[] colors = VisitorPatternUtils.filColors(scanner.nextLine());//GETTING THE COLORS
-        List<Integer> from = new ArrayList<>();
-        List<Integer> to = new ArrayList<>();
+        List<Integer> from = new ArrayList<>(nodesNumber-1);
+        List<Integer> to = new ArrayList<>(nodesNumber-1);
+        fillFromAndTo(scanner, nodesNumber, from, to);
+        Map<Integer,Tree> nodes = new HashMap<>();
+        Tree root = new TreeNode(values[from.get(0)],colors[from.get(0)],0);
+        Integer rootKey = from.get(0);
+        nodes.put(rootKey,root);
+        for (int i=0; i<from.size(); i++){
+            Tree tempTreeNodeValue = nodes.get(from.get(i));
+            Integer tempTreeNodeKey = from.get(i);
+            if(isNode(to.get(i),from)){
+                Tree tempTreeChildNodeValue = new TreeNode(values[to.get(i)],colors[to.get(i)],tempTreeNodeValue.getDepth()+1);
+                Integer tempTreeChildNodeKey = to.get(i);
+                ((TreeNode) tempTreeNodeValue).addChild(tempTreeChildNodeValue);
+                nodes.put(tempTreeChildNodeKey,tempTreeChildNodeValue);
+            }else{
+                Tree tempTreeChildNodeValue = new TreeLeaf(values[to.get(i)],colors[to.get(i)],tempTreeNodeValue.getDepth()+1);
+                ((TreeNode) tempTreeNodeValue).addChild(tempTreeChildNodeValue);
+            }
+        }
+        return root;
+    }
+
+    private static void fillFromAndTo(Scanner scanner, int nodesNumber, List<Integer> from, List<Integer> to) {
         for(int i=0; i < nodesNumber-1; i++){
             String[] fromToArray = scanner.nextLine().split(" ");
             from.add(Integer.valueOf(fromToArray[0])-1);
             to.add(Integer.valueOf(fromToArray[1])-1);
         }
-        Map<Integer,Tree> nodes = new HashMap<>();
-        for (int i=0; i<from.size(); i++){
-            //DOES NODES HAVE THIS NODE ALREADY?
-            if(!nodes.containsKey(from.get(i))){
-                Tree tempTreeNodeValue = new TreeNode(values[from.get(i)],colors[from.get(i)],0);
-                Integer tempTreeNodeKey = from.get(i);
-                nodes.put(tempTreeNodeKey,tempTreeNodeValue);//ADD THIS NODE TO MAP
-                if(isNode(to.get(i),from)){
-                    Tree tempTreeChildNodeValue = new TreeNode(values[to.get(i)],colors[to.get(i)],tempTreeNodeValue.getDepth()+1);
-                    Integer tempTreeChildNodeKey = to.get(i);
-                    ((TreeNode) tempTreeNodeValue).addChild(tempTreeChildNodeValue);
-                    nodes.put(tempTreeChildNodeKey,tempTreeChildNodeValue);
-                }else{
-                    Tree tempTreeChildNodeValue = new TreeLeaf(values[to.get(i)],colors[to.get(i)],tempTreeNodeValue.getDepth()+1);
-                    ((TreeNode) tempTreeNodeValue).addChild(tempTreeChildNodeValue);
-                }
-            }else{
-                Tree tempTreeNodeValue = nodes.get(from.get(i));
-                Integer tempTreeNodeKey = from.get(i);
-                if(isNode(to.get(i),from)){
-                    Tree tempTreeChildNodeValue = new TreeNode(values[to.get(i)],colors[to.get(i)],tempTreeNodeValue.getDepth()+1);
-                    Integer tempTreeChildNodeKey = to.get(i);
-                    ((TreeNode) tempTreeNodeValue).addChild(tempTreeChildNodeValue);
-                    nodes.put(tempTreeChildNodeKey,tempTreeChildNodeValue);
-                }else{
-                Tree tempTreeChildNodeValue = new TreeLeaf(values[to.get(i)],colors[to.get(i)],tempTreeNodeValue.getDepth()+1);
-                ((TreeNode) tempTreeNodeValue).addChild(tempTreeChildNodeValue);
-                }
-            }
-        }
-        Tree root = nodes.get(from.get(0));
-        FancyVisitor vis1 = new FancyVisitor();
-        root.accept(vis1);
-        System.out.println(vis1.getResult());
     }
 
     private static boolean isNode(Integer integer, List<Integer> from) {
         return from.contains(integer);
     }
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         Tree root = solve();
         SumInLeavesVisitor vis1 = new SumInLeavesVisitor();
         ProductOfRedNodesVisitor vis2 = new ProductOfRedNodesVisitor();
@@ -223,5 +201,5 @@ public class VisitorPattern {
         System.out.println(res1);
         System.out.println(res2);
         System.out.println(res3);
-    }*/
+    }
 }
