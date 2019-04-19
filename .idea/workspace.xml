@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3d6481-e18b-4a30-8a73-5af3936036bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Annotations/FamilyBudget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Annotations/FamilyMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Annotations/MainSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Annotations/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/Tree/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/Tree/TreeLeaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/Tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/TreeVis/FancyVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/TreeVis/ProductOfRedNodesVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/TreeVis/SumInLeavesVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/TreeVis/TreeVis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerRank/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerRank/FancyVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerRank/ProductOfRedNodesVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerRank/SumInLeavesVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerRank/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerRank/TreeLeaf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerRank/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerRank/TreeVis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerRank/VisitorPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hackerRank/VisitorPatternUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VisitorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisitorPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Annotations/MainSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Annotations/MainSolution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Annotations/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="195">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,10 +27,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Annotations/FamilyMember.java">
+        <entry file="file://$PROJECT_DIR$/src/Annotations/FamilyBudget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/src/Annotations/MainSolution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="163">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -138,19 +118,31 @@
               <item name="hackerRank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hackerRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Annotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackerRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="MainSolution.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555582426852" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555582673487" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="I:/SEB/SEB0003-CDS-SEB-dev" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,18 +238,27 @@
       <workItem from="1555418664758" duration="2256000" />
       <workItem from="1555420989160" duration="3839000" />
       <workItem from="1555487086305" duration="8278000" />
-      <workItem from="1555572095668" duration="5889000" />
+      <workItem from="1555572095668" duration="6262000" />
+      <workItem from="1555657954172" duration="2117000" />
     </task>
+    <task id="LOCAL-00001" summary="FINISHED VISITORPATTERN EXO&#10;AND STARTED ON ANNOTATION EXO">
+      <created>1555582618232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555582618232</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65696000" />
+    <option name="totallyTimeSpent" value="68186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22068231" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -267,8 +268,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -334,14 +335,18 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FINISHED VISITORPATTERN EXO&#10;AND STARTED ON ANNOTATION EXO" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINISHED VISITORPATTERN EXO&#10;AND STARTED ON ANNOTATION EXO" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Annotations/MainSolution.java</url>
-          <line>17</line>
+          <line>20</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -496,16 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Annotations/FamilyBudget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/AccessibleObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -526,8 +521,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Annotations/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="195">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Annotations/FamilyBudget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -537,7 +542,7 @@
     <entry file="file://$PROJECT_DIR$/src/Annotations/MainSolution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
