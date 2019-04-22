@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3d6481-e18b-4a30-8a73-5af3936036bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InnerClass/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrimeChecker/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflection/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflection/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Annotations/MainSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Annotations/MainSolution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,34 +19,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Annotations/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/InnerClass/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="345">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Annotations/FamilyBudget.java">
+        <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="360">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#1375#1644#0" expanded="true" />
+                <element signature="e#1643#1644#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Annotations/MainSolution.java">
+        <entry file="file://$PROJECT_DIR$/src/PrimeChecker/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="345">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,6 +101,11 @@
         <option value="$PROJECT_DIR$/src/Annotations/FamilyMember.java" />
         <option value="$PROJECT_DIR$/src/Annotations/Solution.java" />
         <option value="$PROJECT_DIR$/src/Annotations/MainSolution.java" />
+        <option value="$PROJECT_DIR$/src/Reflection/Student.java" />
+        <option value="$PROJECT_DIR$/src/Reflection/Solution.java" />
+        <option value="$PROJECT_DIR$/src/InnerClass/Solution.java" />
+        <option value="$PROJECT_DIR$/src/FactoryPattern/Solution.java" />
+        <option value="$PROJECT_DIR$/src/PrimeChecker/Solution.java" />
       </list>
     </option>
   </component>
@@ -104,8 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,31 +133,20 @@
               <item name="hackerRank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Annotations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Annotations" type="462c0819:PsiDirectoryNode" />
-              <item name="MainSolution.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555582673487" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555947004146" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="I:/SEB/SEB0003-CDS-SEB-dev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -156,13 +160,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainSolution">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VisitorPattern.Main" />
+  <component name="RunManager" selected="Application.Solution (3)">
+    <configuration name="MainSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Annotations.MainSolution" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="VisitorPattern.*" />
+          <option name="PATTERN" value="Annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,19 +174,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main1" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.Solution" />
       <module name="hackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Annotations.MainSolution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClass.Solution" />
       <module name="hackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Annotations.*" />
+          <option name="PATTERN" value="InnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryPattern.Solution" />
+      <module name="hackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FactoryPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,20 +226,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VisitorPattern" />
-      <module name="hackerRank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.MainSolution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.VisitorPattern" />
-        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +255,8 @@
       <workItem from="1555420989160" duration="3839000" />
       <workItem from="1555487086305" duration="8278000" />
       <workItem from="1555572095668" duration="6262000" />
-      <workItem from="1555657954172" duration="2117000" />
+      <workItem from="1555657954172" duration="2276000" />
+      <workItem from="1555919996215" duration="9460000" />
     </task>
     <task id="LOCAL-00001" summary="FINISHED VISITORPATTERN EXO&#10;AND STARTED ON ANNOTATION EXO">
       <created>1555582618232</created>
@@ -248,17 +265,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555582618232</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FINISHED ANNOTATION EXO">
+      <created>1555663865849</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555663865849</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68186000" />
+    <option name="totallyTimeSpent" value="77805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22068231" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22334754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -268,7 +292,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -337,7 +361,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FINISHED VISITORPATTERN EXO&#10;AND STARTED ON ANNOTATION EXO" />
-    <option name="LAST_COMMIT_MESSAGE" value="FINISHED VISITORPATTERN EXO&#10;AND STARTED ON ANNOTATION EXO" />
+    <MESSAGE value="FINISHED ANNOTATION EXO" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINISHED ANNOTATION EXO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -519,16 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Annotations/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Annotations/FamilyBudget.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -539,10 +554,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Annotations/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reflection/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reflection/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Annotations/MainSolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="238">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InnerClass/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#1375#1644#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrimeChecker/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
